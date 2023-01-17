@@ -24,3 +24,7 @@
     font-family: 'bold';
     font-size: 18pt;
 }
+
+body {
+    background-color: blue;
+}
