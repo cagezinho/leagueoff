@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'medium';
+    src: url(../fonts/BeaufortforLOL-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url(../fonts/BeaufortforLOL-Bold.ttf);
+}
+
+.navbar {
+    font-family: 'medium';
+    font-size: 16pt;
+}
+
+#t1 {
+    color: rgb(57, 113, 255);
+    font-family: 'bold';
+    font-size: 18pt;
+}
+
+#t2 {
+    color: rgb(255, 124, 124);
+    font-family: 'bold';
+    font-size: 18pt;
+}
+
+.container {
+    margin-top: 150px;
+}
+
+.container > h1 {
+    text-align: center;
+    font-family: 'bold';
+    font-size: 20pt;
+}
+
+.card {
+    display: inline-block;
+    margin: 20px;
+}
+
+@media (min-width: 280px) {
+    .card {
+        margin-left: 1px;
+    }
+    h1 {
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 360px) {
+    .card {
+        margin-left: 20px;
+    }
+    h1 {
+        margin-right: 40px;
+    }
+}
+
+@media (min-width: 375px) {
+    .card {
+        margin-left: 30px;
+    }
+    h1 {
+        margin-right: 40px;
+    }
+}
+
+@media (min-width: 390px) {
+    .card {
+        margin-left: 35px;
+    }
+}
+
+@media (min-width: 412px) {
+    .card {
+        margin-left: 50px;
+    }
+    h1 {
+        margin-right: 40px;
+    }
+}
+
+@media (min-width: 414px) {
+    .card {
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 540px) {
+    .card {
+        margin-left: 100px;
+    }
+}
+
+@media (min-width:700px) and (max-width:767px){
+    .card {
+        margin-left: 22%;
+    }
+}
+
+.card:hover {
+    box-shadow: 3px 6px 8px 6px rgba(0, 0, 0, 0.3);
+
+    animation-name: cardAnimation;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes cardAnimation {
+    100% {
+        transform: scale(110%);
+    }
+}
+
+.card-body {
+    background-color: rgba(240, 248, 255, 0.612);
+}
+
+.card-body > h5 {
+    font-family: 'bold';
+    font-size: 22pt;
+    text-align: center;
+}
+
+.infoChamp {
+    display: inline-block;
+}
+
+.infoRota {
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.infoRota > img {
+    width: 25px;
+    height: 30px;
+}
+
+.infoRota > p {
+    font-family: 'medium';
+    font-size: 12pt;
+}
+
+.infoDificuldade {
+    margin-left: 60px;
+    display: inline-block;
+}
+
+.infoDificuldade > .nv1 {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(0, 153, 255);
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.infoDificuldade > .nv2 {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(191, 189, 189);
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.infoDificuldade > .nv3 {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(191, 189, 189);
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.infoDificuldade > p {
+    font-family: 'medium';
+
+}
+
+.card-body > .btn {
+    display: block;
+}
+
+.card-body > .btn:hover {
+    animation-name: btnChamp;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes btnChamp {
+    100% {
+        transform: scale(107%);
+    }
+}
+
+#ivern > .nv2 {
+    background-color: rgb(0, 153, 255);
+}

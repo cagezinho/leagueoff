@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'medium';
+    src: url(../fonts/BeaufortforLOL-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url(../fonts/BeaufortforLOL-Bold.ttf);
+}
+
+.navbar {
+    font-family: 'medium';
+    font-size: 16pt;
+}
+
+#t1 {
+    color: rgb(57, 113, 255);
+    font-family: 'bold';
+    font-size: 18pt;
+}
+
+#t2 {
+    color: rgb(255, 124, 124);
+    font-family: 'bold';
+    font-size: 18pt;
+}
