@@ -173,10 +173,23 @@
 
 .videoHabilidade > iframe, video {
     position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
+    top: 1%;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width:400px) and (max-width:767px){
+    .accordion-body {
+        height: 500px;
+    }
+    .videoHabilidade > iframe {
+        top: 1%;
+        height: 160%;
+    }
+}
+
+.marginInframeTop {
+    margin-top: 25%;
 }
 
 footer {
