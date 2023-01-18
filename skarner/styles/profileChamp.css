@@ -164,6 +164,7 @@
     font-family: 'medium';
     font-size: 14pt;
     background-color: rgba(82, 185, 89, 0.1);
+    height: 700px;
 }
 
 .videoHabilidade {
@@ -180,11 +181,10 @@
 
 @media (min-width:400px) and (max-width:767px){
     .accordion-body {
-        height: 500px;
+        height: 700px;
     }
     .videoHabilidade > iframe {
-        top: 1%;
-        height: 160%;
+        height: 500px;
     }
 }
 
